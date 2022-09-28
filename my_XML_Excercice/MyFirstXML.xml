@@ -1,0 +1,35 @@
+<!--Simple xml-->
+
+<?xml version="1.0" ?>
+<dailyForecast>
+    <date>2015-06-01</date>
+    <description>sunny</description>
+    <maxTemp unit="C">22</maxTemp>
+    <minTemp unit="C">20</minTemp>
+    <windSpeed unit="kph">12</windSpeed>
+    <danger>false</denger>
+</dailyForecast>
+
+
+<!--Complex xml-->
+
+<?xml version="1.0" ?>
+<forecast>
+    <dailyForecast>
+        <date>2015-06-01</date>
+        <description>sunny</description>
+        <maxTemp unit="C">22</maxTemp>
+        <minTemp unit="C">20</minTemp>
+        <windSpeed unit="kph">12</windSpeed>
+        <danger>false</denger>
+    </dailyForecast>
+    <dailyForecast>
+        <date>2015-06-02</date>
+        <description>windy</description>
+        <maxTemp unit="C">18</maxTemp>
+        <minTemp unit="C">11</minTemp>
+        <windSpeed unit="kph">40</windSpeed>
+        <danger>true</denger>
+    </dailyForecast>
+    <dailyForecast />
+</forecast>
